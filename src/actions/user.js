@@ -4,6 +4,7 @@ import {
 } from './types';
 
 export function setPurchaseDetail(_id) {
+    console.log(_id);
     return({
         type: SET_PURCHASE_DETAIL,
         payload: _id
