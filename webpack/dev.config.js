@@ -1,7 +1,6 @@
 const path = require('path');
 const webpackMerge = require('webpack-merge');
 const webpackCommon = require('./common.config');
-
 const env = require('../env');
 const proxyRules = require('../proxy/rules');
 
