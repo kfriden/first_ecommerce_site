@@ -40,3 +40,27 @@
         width: 137px;
     }
 }
+
+.form-button-long-gray {
+    display: grid;
+    grid-gap: 6.5px;
+
+    &__label {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    &__button {
+        height: 38px;
+        width: 243px;
+        border-radius: 20px;
+        border-color: #E6E6E6;
+        background-color: #999;
+        font-size: 16px;
+        color: white;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
