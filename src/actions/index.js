@@ -10,7 +10,9 @@ import {
 } from './user';
 
 import {
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts,
+    filterProductsWithCategoryId
 } from './shop';
 
 export {
@@ -19,5 +21,7 @@ export {
     changeNavbarActive,
     fetchUserPurchases,
     setPurchaseDetail,
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts,
+    filterProductsWithCategoryId
 };
