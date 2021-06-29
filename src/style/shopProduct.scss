@@ -26,12 +26,12 @@
         grid-row: description-s/description-e;
         font-size: 13px;
         color: #333;
-        justify-items: center;
-        align-items: center;
+        //justify-items: center;
+        //align-items: center;
     }
 
     &__quantity {
-        justify-self: start;
+        //justify-self: start;
         grid-row: footer-s/footer-e;
     }
 
