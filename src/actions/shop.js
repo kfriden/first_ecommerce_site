@@ -65,56 +65,56 @@ export function fetchShopProducts() {
             {
                 _id: 0,
                 title: 'JavaScript in the Browser',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfsqwhhgqyuwhuwqiejnweajkdndsjichdsuifheaudhanc',
                 price: 1.99,
                 belongsTo: [0, 1]
             },
             {
                 _id: 1,
                 title: 'Graph Database',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfswjasqijuiwqhjesuidndsjkcndsjifyaewq78eyw',
                 price: 1.99,
                 belongsTo: [0, 6]
             },
             {
                 _id: 2,
                 title: 'Full Stack Development',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfnduieswhuioewjfinfkfdlvmvcklvjfidu9fueiuodj',
                 price: 1.99,
                 belongsTo: [0, 1, 4]
             },
             {
                 _id: 3,
                 title: 'Full Stack Development',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfduiweashuioweauweqiojdsxkocvjcxikofuds8fyu',
                 price: 1.99,
                 belongsTo: [0, 1, 4]
             },
             {
                 _id: 4,
                 title: 'JavaScript Development',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfdjiwsahuewiy437wq836y37q2ehejsdkfnfdjuifh',
                 price: 1.99,
                 belongsTo: [0, 1]
             },
             {
                 _id: 5,
                 title: 'User Interface Design',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfdjuiaswhnuiqw73rujriur4eureintrefjifghreg',
                 price: 1.99,
                 belongsTo: [0, 2]
             },
             {
                 _id: 6,
                 title: 'User Experience Design',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfjksdandwjiqyueq289wuqiopjmasklcnfdjivhfdu',
                 price: 1.99,
                 belongsTo: [0, 2]
             },
             {
                 _id: 7,
                 title: 'Advanced Object Oriented Programming',
-                description: 'ehjwuewhnrfjnjfdgndfujgf',
+                description: 'ehjwuewhnrfjnjfdgndfujgfduwawiuqwjiawsodndsjichdshyfgdsyudghwayd',
                 price: 1.99,
                 belongsTo: [0, 6]
             }
