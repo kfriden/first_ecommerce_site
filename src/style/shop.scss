@@ -1,10 +1,10 @@
 .shop {
     display: grid;
     grid-column: s/e;
-    grid-template-rows: 15px [search-bar-s] 38px [search-bar-e products-s] 1fr [products-e];
+    grid-template-rows: 15px [search-bar-s] 38px [search-bar-e] 57px [products-s] 1fr [products-e];
     grid-row: content-s/content-e;
     grid-template-columns: [s] minmax(100px, 1035px) [e];
-    grid-gap: 57px;
+    //grid-gap: 57px;
     justify-content: center;
 
     &__search-bar {
@@ -22,5 +22,22 @@
         //max-width: 1035px;
         width: 100%;
         justify-content: center;
+    }
+
+    &__cart-button {
+        z-index: 5;
+    }
+
+    &__cart,
+    &__cart-button {
+        //grid-row: 1/-1;
+        //grid-column: 1/-1;
+        //align-self: start;
+        //justify-self: end;
+
+        grid-row: search-bar-s/-1;
+        position: absolute;
+        top: 100px;
+        right: 0px;
     }
 }
