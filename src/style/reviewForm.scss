@@ -1,9 +1,7 @@
 .review-form {
-    &__page-title {
-
-    }
     &__products {
         grid-column: 1/-1;
+        grid-row: products-s/products-e;
     }
     &__line {
         grid-column: 1/-1;
