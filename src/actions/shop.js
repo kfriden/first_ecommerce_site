@@ -67,56 +67,64 @@ export function fetchShopProducts() {
                 title: 'JavaScript in the Browser',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi! ',
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 1,
                 title: 'Graph Database',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 2,
                 title: 'Full Stack Development',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 1, 4]
+                belongsTo: [0, 1, 4],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 3,
                 title: 'Full Stack Development',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 1, 4]
+                belongsTo: [0, 1, 4],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 4,
                 title: 'JavaScript Development',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 5,
                 title: 'User Interface Design',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 6,
                 title: 'User Experience Design',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 7,
                 title: 'Advanced OOP',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80'
             }
         ]
     })

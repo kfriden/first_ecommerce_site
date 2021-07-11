@@ -31,7 +31,8 @@ export function fetchCartProducts() {
                 title: 'JavaScript in the Browser',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi! ',
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
                },
                quantity: 2
             },
@@ -42,7 +43,8 @@ export function fetchCartProducts() {
                 title: 'Graph Database',
                 description: 'ehjwuewhnrfjnjfdgndfujg. This is a sentence. Hi!',
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80'
                 },
                 quantity: 1
             },
