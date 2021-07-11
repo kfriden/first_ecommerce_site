@@ -3,6 +3,7 @@ import Quantity from '../quantity';
 import GreenPriceTag from '../greenPriceTag';
 
 class CartProduct extends Component {
+    // here
     render() {
         console.log(this.props);
         const { className, product, quantity } = this.props;

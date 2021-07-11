@@ -9,7 +9,7 @@ class ShopProduct extends Component {
     handleAddToCart = () => {
         if(document.getElementById('shop-cart').classList.contains('cart-hidden')) {
             document.getElementById('shop-cart').classList.remove('cart-hidden');
-            const { _id, title, description, price, belongsTo } = this.props;
+            const { _id, title, description, price, belongsTo, imageUrl } = this.props;
             this.props.addCartProduct({ _id, title, description, price, belongsTo, imageUrl });
         } else {
             document.getElementById('shop-cart').classList.add('cart-hidden');
