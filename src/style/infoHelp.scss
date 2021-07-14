@@ -1,23 +1,47 @@
-.underlinedTitle {
+.underlined-title {
     font-size: 14px;
     font-weight: 600;
     border-bottom: 1px solid #ccc;
 }
 
 .info-title {
+    display: grid;
+    grid-template-rows: [s] 1fr [e];
+    grid-template-columns: [s] 1fr [m] 1fr [e];
     &__title {
+        grid-column: s/m;
+        grid-row: s/e;
         font-size: 14px;
+        align-items: center;
     }
     &__value {
         color: #00CB79;
         font-weight: 600;
         font-size: 18px;
+        grid-column: m/e;
+        grid-row: s/e;
     }
 }
 
-info-title-green {
+.info-title-green {
+    .info-title {
     &__title {
         font-weight: 600;
         color: #00CB79;
+        }
+    }
+}
+
+.order-summary {
+    display: grid;
+    grid-template-rows: 30px 24px 24px 46px;
+    width: 240px;
+    height: 150px;
+    grid-row-gap: 5px;
+
+    .info-title {
+        &__value {
+            justify-self: end;
+        }
     }
 }
